@@ -12,9 +12,9 @@ database_id = "80f38d62-a4ea-4cd7-a211-8aecd3c307ae"  # 替换为你的 D1 数�
 
 # R2 存储桶配置（用于备份功能，可选）
 #
-#[[r2_buckets]]
-#binding = "BACKUP_BUCKET"
-#bucket_name = "bookmark-backups"
+[[r2_buckets]]
+binding = "BACKUP_BUCKET"
+bucket_name = "bookmark-backups"
 #
 # 环境变量（必须）
 # - ADMIN_USERNAME          # 管理员用户名，用于登录管理后台
